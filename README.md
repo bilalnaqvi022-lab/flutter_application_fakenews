@@ -98,20 +98,7 @@ flutter build ios --release
 
 ```
 lib/
-├── main.dart               # Entry point, theme constants, all screens
-│
-├── models/
-│   ├── scan_result.dart    # ScanResult, VerifiedSource models
-│   └── enums.dart          # CredibilityLevel, AppLanguage, ScanState
-│
-├── screens/
-│   ├── splash_screen.dart  # Animated splash with progress bar
-│   └── home_screen.dart    # Main scanner UI and result display
-│
-└── widgets/
-    ├── verdict_card.dart   # Credibility verdict display
-    ├── score_bar.dart      # Animated credibility scale
-    └── source_tile.dart    # Individual source verification item
+└── main.dart 
 ```
 
 > **Note:** The current codebase is in a single `main.dart` file. The structure above reflects the recommended refactored layout.
